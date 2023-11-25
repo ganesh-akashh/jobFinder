@@ -6,7 +6,6 @@ import { HiLocationMarker } from 'react-icons/hi';
 import { useInView } from 'react-intersection-observer';
 import Review from '../components/Review';
 
-import { useSnapshot } from 'valtio';
 
 
 const Details = ({ job }) => {
@@ -75,7 +74,7 @@ const Details = ({ job }) => {
                     </div>
 
                     <button
-                        onClick={handleClick}
+                       onClick={()=>{}}
                         className='rounded-md active text-white py-3 px-4 bg-purple-400 hover:bg-purple-500 w-full'
                     >
                         Apply Now

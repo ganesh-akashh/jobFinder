@@ -1,6 +1,5 @@
 
 import React, { useEffect, useState } from 'react';
-import { useLocation } from 'react-router-dom';
 import Breadcrumb from "../components/Breadcrumb"
 import Details from '../components/Details';
 import Navbar from "../components/Navbar"
